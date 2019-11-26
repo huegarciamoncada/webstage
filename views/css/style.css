@@ -1,0 +1,49 @@
+.site-header{
+    background-color: rgb(14, 93, 167);
+    padding: 20px;
+}
+
+/*.site-footer{
+    background-color: rgb(18, 18, 19);
+    text-align: center;
+    padding: 20px;
+}*/
+.site-content{
+    background-color: white;
+    padding: 20px;
+    min-height: 615px;
+}
+footer{
+  background-color: rgb(211, 216, 216);
+    text-align: center; 
+    padding: 20px;
+    
+
+}
+h5{
+  color: rgb(255, 0, 221);
+  font-weight: bold;
+
+
+}
+#notice{
+background-color: white;
+
+
+}
+/*#search{
+  float: right;
+}*/
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 800px) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+   Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other 
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }*/
