@@ -1,22 +1,16 @@
 <?php
-/*function connectDB(){
+function connectDB(){
     $user ='student';
 $pass = 'Mot_de_pass123';
 
 $pdo = new PDO('mysql:host=localhost;dbname=Offre_stage;charset=utf8', $user, $pass);
 return $pdo;
 
-}*/
-function connectDB(){
-    $user ='huegarcisr328';
-$pass = 'Anyonio2003';
-
-$pdo = new PDO('mysql:host=huegarcisr328.mysql.db;dbname=huegarcisr328;charset=utf8', $user,  $pass);
-return $pdo;
 }
+
 function getListStage(){
-$user ='huegarcisr328';
-$pass = 'Anyonio2003';
+    $user ='student';
+    $pass = 'Mot_de_pass123';
 
 //$pdo = new PDO('mysql:host=huegarcisr328.mysql.db;dbname=huegarcisr328;charset=utf8', $user, $pass);
 try {
